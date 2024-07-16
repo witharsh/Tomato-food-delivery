@@ -69,3 +69,10 @@
     width: 25px;
     cursor: pointer;
 }
+
+@media (max-width:325px) {
+    .food-item-name-rating{
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
