@@ -23,3 +23,11 @@
 .app-download-platform img:hover {
   transform: scale(1.05);
 }
+
+@media (max-width:320px) {
+  .app-download-platform {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
