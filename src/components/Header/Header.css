@@ -55,3 +55,32 @@
         padding: 1.5vw 3vw;
     }
 }
+
+@media (max-width:425px) {
+    .header{
+        margin: 10px auto 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .header{
+        height: 50vw;
+        margin: 10px auto 20px;
+        background-size: cover;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .header-contents{
+        max-width: 70%;
+        gap: 10px;
+    }
+    .header-contents h2{
+        font-size: max(4.5vw,20px);
+        line-height: 1.2;
+    }
+    .header-contents button{
+        padding: 5px 10px;
+        font-size: max(1vw,12px);
+        line-height: 1;
+    }
+}
