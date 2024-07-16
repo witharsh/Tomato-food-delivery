@@ -62,7 +62,9 @@
 
 @media (max-width:320px) {
     .footer-content-left .logo{
-        width: 150px;
+        width: min(100%, 150px);
     }
-
+    .footer-content-right{
+        word-break: break-all;
+    }
 }
